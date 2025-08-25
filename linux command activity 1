@@ -1,0 +1,188 @@
+yazdaan@B-Yazdaan:~$ ls
+description: Lists folder contents.
+Desktop Documents Downloads Music Pictures Public Templates Videos
+
+yazdaan@B-Yazdaan:~$ pwd
+description: Shows current directory path.
+/home/user
+
+yazdaan@B-Yazdaan:~$ cd
+description: Navigates directories.
+(no output; changes directory silently)
+
+yazdaan@B-Yazdaan:~$ mkdir
+description: Creates directories.
+(no output; folder created)
+
+yazdaan@B-Yazdaan:~$ rmdir
+description: Deletes empty directories.
+(no output; folder removed)
+
+yazdaan@B-Yazdaan:~$ rm
+description: Deletes files or folders.
+(no output; file deleted)
+
+yazdaan@B-Yazdaan:~$ cp
+description: Copies files or directories.
+(no output; file copied)
+
+yazdaan@B-Yazdaan:~$ mv
+description: Moves or renames files/directories.
+(no output; file moved/renamed)
+
+yazdaan@B-Yazdaan:~$ touch
+description: Creates empty files.
+(no output; file created)
+
+yazdaan@B-Yazdaan:~$ file
+description: Determines file type.
+test.txt: ASCII text
+
+yazdaan@B-Yazdaan:~$ zip and unzip
+description: Compresses/extracts ZIP archives.
+adding: file.txt (stored 0%)
+
+yazdaan@B-Yazdaan:~$ tar
+description: Archives files (with optional compression).
+(no output; archive created)
+
+yazdaan@B-Yazdaan:~$ nano
+description: Opens text editor.
+(no output; editor interface)
+
+yazdaan@B-Yazdaan:~$ cat
+description: Prints file contents.
+Hello, this is the file content.
+
+yazdaan@B-Yazdaan:~$ grep
+description: Searches text using patterns.
+pattern found in line 3
+
+yazdaan@B-Yazdaan:~$ sed
+description: Stream editor for text manipulation.
+replaced text output
+
+yazdaan@B-Yazdaan:~$ head
+description: Prints first few lines of a file.
+Line 1
+Line 2
+Line 3
+
+yazdaan@B-Yazdaan:~$ tail
+description: Prints last few lines of a file.
+Line 8
+Line 9
+Line 10
+
+yazdaan@B-Yazdaan:~$ awk
+description: Processes and analyzes text files.
+Average: 75
+
+yazdaan@B-Yazdaan:~$ sort
+description: Sorts file contents.
+apple
+banana
+cherry
+
+yazdaan@B-Yazdaan:~$ cut
+description: Extracts sections from lines.
+field3,field4,field5
+
+yazdaan@B-Yazdaan:~$ diff
+description: Compares files line by line.
+1c1
+< old line
+---
+> new line
+
+yazdaan@B-Yazdaan:~$ tee
+description: Outputs to Terminal and file.
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+
+yazdaan@B-Yazdaan:~$ locate
+description: Finds files by name.
+/home/user/file.txt
+
+yazdaan@B-Yazdaan:~$ find
+description: Searches for files in a directory.
+./file.txt
+
+yazdaan@B-Yazdaan:~$ sudo
+description: Executes commands with superuser privileges.
+[sudo] password for user:
+
+yazdaan@B-Yazdaan:~$ su
+description: Switches users or shows current user.
+user
+
+yazdaan@B-Yazdaan:~$ chmod
+description: Changes file permissions.
+(no output; permissions changed)
+
+yazdaan@B-Yazdaan:~$ chown
+description: Changes file ownership.
+(no output; ownership changed)
+
+yazdaan@B-Yazdaan:~$ useradd
+description: Manages users.
+(no output; user added/changed/deleted)
+
+yazdaan@B-Yazdaan:~$ df
+description: Reports disk space usage.
+Filesystem     1K-blocks    Used Available Use% Mounted on
+/dev/sda1      10000000  5000000   5000000  50% /
+
+yazdaan@B-Yazdaan:~$ du
+description: Estimates file space usage.
+4    ./folder
+
+yazdaan@B-Yazdaan:~$ top
+description: Displays running processes.
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+
+yazdaan@B-Yazdaan:~$ htop
+description: Interactive process viewer.
+(interactive interface; no static output)
+
+yazdaan@B-Yazdaan:~$ ps
+description: Reports process status.
+PID TTY          TIME CMD
+1234 pts/0    00:00:00 bash
+
+yazdaan@B-Yazdaan:~$ uname
+description: Prints system information.
+Linux
+
+yazdaan@B-Yazdaan:~$ hostname
+description: Shows or sets system hostname.
+ubuntu-host
+
+yazdaan@B-Yazdaan:~$ time
+description: Measures command execution time.
+real    0m0.001s
+user    0m0.000s
+sys     0m0.001s
+
+yazdaan@B-Yazdaan:~$ systemctl
+description: Manages system services.
+UNIT                           LOAD   ACTIVE SUB       DESCRIPTION
+
+yazdaan@B-Yazdaan:~$ watch
+description: Runs a command periodically.
+Every 2.0s: date
+Sun Aug 24 21:23:00 IST 2025
+
+yazdaan@B-Yazdaan:~$ jobs
+description: Lists active jobs.
++  Running                 sleep 60 &
+
+yazdaan@B-Yazdaan:~$ kill
+description: Terminates processes.
+(no output; process terminated)
+
+yazdaan@B-Yazdaan:~$ shutdown
+description: Shuts down or restarts the system.
+Shutdown scheduled for Sun 2025-08-24 21:24:00 IST, use ‘shutdown -c’ to cancel.
+
+yazdaan@B-Yazdaan:~$ ping
+d
